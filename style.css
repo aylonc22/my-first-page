@@ -1,0 +1,88 @@
+.defualt-h1{
+    color: red;
+}
+.opening-h1{
+    font-style: italic;
+    color: black;
+    justify-self: center;
+    text-align: center
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 1%;
+    border: 1px solid black;
+    justify-content: space-around;
+    text-align: center
+}
+.box{
+    
+    width: 25%;
+    border: 3px solid cyan ;
+}
+.box:nth-child(2){
+    width: 50%;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 1%;
+    border: 1px solid black;
+    justify-content: start;
+}
+.box2{
+    
+    width: 25%;
+    border: 3px solid cyan ;
+}
+.box2:last-child{
+    width:75%;
+}
+.flex-container3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;  
+}
+.flex-container3.politics{  
+    width: 98%;
+    background-color: khaki;
+    padding: 1%;
+}
+.flex-container3.politics:hover{  
+    
+    background-color: red;
+}
+.flex-container3.technology{
+    width: 98%;
+    background-color: deepskyblue;
+    padding: 1%;
+}
+.flex-container3.technology:hover{ 
+    background-color: red;
+}
+.flex-container3.local{
+    width: 98%;
+    background-color: lightgreen;
+    padding: 1%;
+}
+.flex-container3.local:hover{ 
+    background-color: red;
+}
+.flex-container3.opinion{
+    width: 98%;
+    background-color: mediumslateblue;
+    padding: 1%;
+}
+.flex-container3.opinion:hover{ 
+    background-color: red;
+}
+.flex-container3.sports{
+    width: 98%;
+    background-color: orchid;
+   padding: 1%;
+}
+.flex-container3.sports:hover{ 
+    background-color: red;
+}
